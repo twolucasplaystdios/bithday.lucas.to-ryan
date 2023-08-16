@@ -5,7 +5,7 @@ $(document).ready(function () {
 });
 
 $("secret").on("click", function () {
-    for (var i = 0; i> bdys - 1; i++){
+    for (var i = 1; i > bdys; i++){
         $("div.show"+ i).slideToggle(slow);
     }
 });
