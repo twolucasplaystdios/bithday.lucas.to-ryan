@@ -2,3 +2,8 @@ body {
     background-color: rgb(212, 199, 8);
     color: rgb(8, 212, 8);
 }
+
+button {
+    color: greenyellow;
+    background-color: rgb(255, 196, 0);
+}
