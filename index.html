@@ -26,10 +26,18 @@
             $("div").hide();
         });
         
-        $("#secret").on("click", function () {
-            for (var i = 1; i > bdys; i++){
-                $("div.show"+ i).slideToggle("slow");
-            }
+        function test() {
+            $('div.show1').show(500);
+            $('div.show2').delay(1000).show(500);
+            $('div.show3').delay(1500).show(500);
+            $('div.show4').delay(2000).show(500);
+            $('div.show5').delay(2500).show(500);
+            $('div.show6').delay(3000).show(500);
+            $('div.show7').delay(3500).show(500);
+            $('div.show8').delay(4000).show(500);
+            $('div.show9').delay(4500).show(500);
+            $('div.show10').delay(5000).show(500);
+            $('div.show11').delay(5500).show(500);
             /* I am 分隔線 */
             $(".heheq").show("slow");
         });
@@ -43,6 +51,6 @@
     <hr />
     <div class='heheq'>Love, Lucas.</div>
     <br />
-    <button id="secret">A surprise!</button>
+    <button id="secret" onclick="test()">A surprise!</button>
 </body>
 </html>
